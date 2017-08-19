@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.19.0"></a>
+# [0.19.0](https://github.com/webpack/style-loader/compare/v0.18.2...v0.19.0) (2017-08-19)
+
+
+### Features
+
+* add support for iframes (`options.insertInto`) ([#248](https://github.com/webpack/style-loader/issues/248)) ([25e8e89](https://github.com/webpack/style-loader/commit/25e8e89))
+* export content ,remove locals ([21e991b](https://github.com/webpack/style-loader/commit/21e991b))
+
+
+
 <a name="0.18.2"></a>
 ## [0.18.2](https://github.com/webpack/style-loader/compare/v0.18.1...v0.18.2) (2017-06-05)
 
