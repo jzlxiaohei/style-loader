@@ -1,8 +1,8 @@
 {
-  "name": "style-loader",
+  "name": "style-loader-with-content",
   "version": "0.18.2",
-  "author": "Tobias Koppers @sokra",
-  "description": "style loader module for webpack",
+  "author": "jzlxiaohei@163.com",
+  "description": "style loader module for webpack(fork from style-loader)",
   "engines": {
     "node": ">= 0.12.0"
   },

@@ -30,7 +30,7 @@ module.exports.pitch = function (request) {
 		"options.transform = transform",
 		"// add the styles to the DOM",
 		"var update = require(" + loaderUtils.stringifyRequest(this, "!" + path.join(__dirname, "lib", "addStyles.js")) + ")(content, options);",
-		"if(content.locals) module.exports = content.locals;",
+		"module.exports = content;",
 		"// Hot Module Replacement",
 		"if(module.hot) {",
 		"	// When the styles change, update the <style> tags",
